@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore a collection of dog photos in Dog's:Photos. Navigate through multiple pages of delightful dog images using 'Previous' and 'Next' buttons.">
+    <link rel="stylesheet" href="scrapbooks.css" />
+    <title>Dog's:Photos - Dog Photo Collection</title>
+  </head>
+  <body>
+    <div class="container" id="photo-container"></div>
+    <div class="navButton-container">
+      <button class="navButton" onclick="prevPage()">Previous</button>
+      <span id="currentPage">1</span>
+      <button class="navButton" onclick="nextPage()">Next</button>
+    </div>
+
+    <script src="/data/scrapbook.js"></script>
+    <script src="common.js"></script>
+  </body>
+</html>
